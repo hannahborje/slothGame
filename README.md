@@ -31,3 +31,7 @@ To run test
 ---------------------
 
 	$ npm test
+	
+Techniques
+---------------------
+ES6, HTML, CSS, Node.js Express, REST-api, Mocha, Cors, Webpack, Babel
