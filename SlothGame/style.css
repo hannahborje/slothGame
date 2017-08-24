@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    width: 100%;
+}
+div.headerTextContainer {
+}
+p.textStyle {
+    font-family: 'Baloo Bhaijaan', cursive, "Courier New", monospace;
+}
+p#winnerText {
+    font-size: 5vw;
+    text-align: center;
+    margin: 0;
+}
+p#freeSpinText {
+    font-size: 5vw;
+    visibility: hidden;
+    margin: 8vw;
+    font-color: red;
+}
+div.imageContainer {
+    width: 85vw;
+    height: 13vw;
+    padding-left: 17vw;
+    margin-top: 2vw;
+}
+div.spinImg {
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    padding: 2px;
+}
+div.spinImg img {
+    width: 100%;
+    height: auto;
+}
+div.buttonContainer {
+    margin-top: 9vw;
+    padding-left: 44vw;
+    position: absolute;
+}
+div.buttonImg {
+    width: 11vw;
+    border-radius: 50px;
+    cursor: pointer;
+}
+div.buttonImg img {
+    width: 100%;
+    height: auto;
+}
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
+}
