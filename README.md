@@ -1,4 +1,4 @@
-# slothGame
+# Sloth Game
 What is it
 ---------------------
 Simple slot game with awesome sloths! Just press the button to spin. 
